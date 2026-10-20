@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.gymsaathi.app'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.gymsaathi.app'
+        minSdk 23
+        targetSdk 36
+        versionCode 2
+        versionName '1.1'
+    }
+}
